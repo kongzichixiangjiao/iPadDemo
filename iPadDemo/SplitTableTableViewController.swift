@@ -51,6 +51,8 @@ class SplitTableTableViewController: UITableViewController {
         case 0:
             let nav = NavigationViewController(rootViewController: OneViewController())
             navigationController?.splitViewController?.showDetailViewController(nav, sender: self)
+            navigationController?.splitViewController?.modalPresentationStyle = .fullScreen
+            navigationController?.splitViewController?.minimumPrimaryColumnWidth = 0
             break
         case 1:
             navigationController?.splitViewController?.showDetailViewController(TwoViewController(), sender: self)

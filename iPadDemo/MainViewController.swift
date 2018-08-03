@@ -13,6 +13,9 @@ class MainViewController: UISplitViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 //        self.showDetailViewController(OneViewController(), sender: self)
+        self.delegate = self
+        print(self.viewControllers)
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -28,4 +31,10 @@ extension MainViewController: UISplitViewControllerDelegate {
         return true
     }
     
+    func splitViewController(_ splitViewController: UISplitViewController, collapseSecondary secondaryViewController: UIViewController, onto primaryViewController: UIViewController) -> Bool {
+        return true
+    }
+    func targetDisplayModeForAction(in svc: UISplitViewController) -> UISplitViewControllerDisplayMode {
+        return .allVisible
+    }
 }

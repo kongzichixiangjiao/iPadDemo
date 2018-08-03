@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		B44F300F43A3382C0D19B4D9 /* libPods-iPadDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 360176E2419A2E6BF1B7F7D4 /* libPods-iPadDemo.a */; };
+		DC4D6696205951F700C3C257 /* NewMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4D6695205951F700C3C257 /* NewMainViewController.swift */; };
+		DC4D66982059524F00C3C257 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4D66972059524F00C3C257 /* LeftViewController.swift */; };
+		DC4D669A2059527A00C3C257 /* RightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4D66992059527A00C3C257 /* RightViewController.swift */; };
 		DC9259C02051076E00D85068 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9259BF2051076E00D85068 /* AppDelegate.swift */; };
 		DC9259C22051076E00D85068 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9259C12051076E00D85068 /* MainViewController.swift */; };
 		DC9259C52051076E00D85068 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9259C32051076E00D85068 /* Main.storyboard */; };
@@ -47,6 +50,9 @@
 		1566E7B7344C5273BA281951 /* Pods-iPadDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPadDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iPadDemo/Pods-iPadDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		360176E2419A2E6BF1B7F7D4 /* libPods-iPadDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iPadDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B41AD27D8C32DBDC5AF4C394 /* Pods-iPadDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPadDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-iPadDemo/Pods-iPadDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DC4D6695205951F700C3C257 /* NewMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMainViewController.swift; sourceTree = "<group>"; };
+		DC4D66972059524F00C3C257 /* LeftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		DC4D66992059527A00C3C257 /* RightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightViewController.swift; sourceTree = "<group>"; };
 		DC9259BC2051076E00D85068 /* iPadDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPadDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC9259BF2051076E00D85068 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC9259C12051076E00D85068 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -150,6 +156,9 @@
 				DC9259EE20510ABB00D85068 /* OneViewController.xib */,
 				DC9259F120510AE000D85068 /* TwoViewController.swift */,
 				DC9259F220510AE000D85068 /* TwoViewController.xib */,
+				DC4D6695205951F700C3C257 /* NewMainViewController.swift */,
+				DC4D66972059524F00C3C257 /* LeftViewController.swift */,
+				DC4D66992059527A00C3C257 /* RightViewController.swift */,
 				DC9259C32051076E00D85068 /* Main.storyboard */,
 				DC9259C62051076E00D85068 /* Assets.xcassets */,
 				DC9259C82051076E00D85068 /* LaunchScreen.storyboard */,
@@ -375,9 +384,12 @@
 				DC9259F820510B6C00D85068 /* NavigationViewController.swift in Sources */,
 				DC9259F620510B5000D85068 /* HomeViewController.swift in Sources */,
 				DC9259FD20510C6A00D85068 /* SplitTableViewCell.swift in Sources */,
+				DC4D669A2059527A00C3C257 /* RightViewController.swift in Sources */,
+				DC4D66982059524F00C3C257 /* LeftViewController.swift in Sources */,
 				DC9259EF20510ABB00D85068 /* OneViewController.swift in Sources */,
 				DC9259C22051076E00D85068 /* MainViewController.swift in Sources */,
 				DC9259FA20510B8600D85068 /* SplitTableTableViewController.swift in Sources */,
+				DC4D6696205951F700C3C257 /* NewMainViewController.swift in Sources */,
 				DC9259C02051076E00D85068 /* AppDelegate.swift in Sources */,
 				DC9259F320510AE000D85068 /* TwoViewController.swift in Sources */,
 			);
